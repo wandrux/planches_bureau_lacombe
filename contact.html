@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact – Atelier Bois Gravé</title>
+  <meta name="description" content="Contactez notre atelier pour vos commandes, projets sur-mesure ou questions." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-logo" aria-hidden="true">🪵</span>
+        <span class="brand-name">Atelier Bois Gravé</span>
+      </a>
+      <nav class="nav">
+        - <a href="index.html">Accueil</a>
+        - <a href="products.html">Produits</a>
+        - <a href="about.html">À propos</a>
+        - <a href="contact.html" class="active">Contact</a>
+        <button class="cart-btn" disabled title="Panier bientôt disponible">🛒 Bientôt</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>Nous contacter</h1>
+      <p>Une question, un projet, une commande spéciale ? Écrivez-nous.</p>
+    </section>
+
+    <section class="content">
+      <!-- Formulaire décoratif pour la mise en page (non relié pour le moment) -->
+      <form class="contact-form" action="#" method="POST" onsubmit="return false;">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="_replyto" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" placeholder="Devis planches personnalisées, série entreprise, etc." />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="button" disabled title="Envoi bientôt disponible">Envoyer</button>
+      </form>
+
+      <div class="contact-extra">
+        <p><strong>E-mail</strong> : contact@votre-domaine.fr</p>
+        <p><strong>Instagram</strong> : <a href="#" aria-disabled="true">@atelierboisgrave</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> Atelier Bois Gravé</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

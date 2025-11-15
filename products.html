@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Boutique – Atelier Bois Gravé</title>
+  <meta name="description" content="Boutique d'objets en bois gravés: planches à découper, dessous de plats, ustensiles et accessoires personnalisés." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-logo" aria-hidden="true">🪵</span>
+        <span class="brand-name">Atelier Bois Gravé</span>
+      </a>
+      <nav class="nav">
+        - <a href="index.html">Accueil</a>
+        - <a href="products.html" class="active">Produits</a>
+        - <a href="about.html">À propos</a>
+        - <a href="contact.html">Contact</a>
+        <button class="cart-btn" disabled title="Panier bientôt disponible">🛒 Bientôt</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>Boutique</h1>
+      <p>Personnalisez votre gravure au moment de la commande (bientôt disponible).</p>
+    </section>
+
+    <section class="filters">
+      <div class="filters-grid">
+        <div class="filter">
+          <label for="search">Recherche</label>
+          <input type="search" id="search" placeholder="Rechercher un produit, une essence, un mot-clé…" />
+        </div>
+        <div class="filter">
+          <label for="category">Catégorie</label>
+          <select id="category">
+            <option value="">Toutes</option>
+            <option value="planches">Planches à découper</option>
+            <option value="dessous-de-plats">Dessous de plats</option>
+            <option value="ustensiles">Ustensiles</option>
+            <option value="accessoires">Accessoires</option>
+          </select>
+        </div>
+        <div class="filter">
+          <label for="sort">Trier par</label>
+          <select id="sort">
+            <option value="popularity">Popularité</option>
+            <option value="price-asc">Prix croissant</option>
+            <option value="price-desc">Prix décroissant</option>
+            <option value="name">Nom</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="products-grid" class="product-grid" aria-live="polite"></div>
+      <div id="products-empty" class="empty-state" hidden>
+        Aucun produit ne correspond à votre recherche.
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> Atelier Bois Gravé</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
