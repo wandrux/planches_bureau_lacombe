@@ -1,0 +1,82 @@
+[
+  {
+    "id": "planche-chene-classique",
+    "name": "Planche à découper en chêne - Classique",
+    "price": 49.9,
+    "shortDesc": "Chêne massif huilé, rainure à jus.",
+    "description": "Planche à découper en chêne massif, finition huilée. Idéale pour la cuisine quotidienne. Gravure personnalisée incluse (jusqu’à 2 lignes).",
+    "category": "planches",
+    "wood": "chêne",
+    "tags": ["planche", "cuisine", "chêne", "gravure"],
+    "image": "https://placehold.co/800x600?text=Planche+Ch%C3%AAne",
+    "featured": true,
+    "popularity": 98,
+    "variants": ["30 x 20 cm", "35 x 25 cm", "40 x 28 cm"]
+  },
+  {
+    "id": "planche-hetre-XL",
+    "name": "Planche à découper en hêtre - XL",
+    "price": 59.9,
+    "shortDesc": "Grand format, parfaite pour les pièces entières.",
+    "description": "Hêtre massif, surface généreuse pour les préparations familiales. Gravure personnalisée incluse.",
+    "category": "planches",
+    "wood": "hêtre",
+    "tags": ["planche", "hêtre", "grand format"],
+    "image": "https://placehold.co/800x600?text=Planche+H%C3%AAtre+XL",
+    "featured": true,
+    "popularity": 86,
+    "variants": ["45 x 30 cm"]
+  },
+  {
+    "id": "dessous-rond-noyer",
+    "name": "Dessous de plat rond - Noyer",
+    "price": 24.9,
+    "shortDesc": "Noyer sombre, élégant et résistant.",
+    "description": "Dessous de plat en noyer avec patins anti-rayure. Gravure personnalisée possible.",
+    "category": "dessous-de-plats",
+    "wood": "noyer",
+    "tags": ["dessous de plat", "noyer", "table"],
+    "image": "https://placehold.co/800x600?text=Dessous+de+plat+Noyer",
+    "featured": true,
+    "popularity": 77
+  },
+  {
+    "id": "spatule-olivier",
+    "name": "Spatule de cuisine - Olivier",
+    "price": 12.9,
+    "shortDesc": "Bois d’olivier, veines uniques.",
+    "description": "Spatule en olivier, idéale pour poêles antiadhésives. Gravure petite signature possible.",
+    "category": "ustensiles",
+    "wood": "olivier",
+    "tags": ["spatule", "ustensile", "olivier"],
+    "image": "https://placehold.co/800x600?text=Spatule+Olivier",
+    "featured": false,
+    "popularity": 65
+  },
+  {
+    "id": "cuillere-service-frene",
+    "name": "Cuillère de service - Frêne",
+    "price": 14.9,
+    "shortDesc": "Légère et robuste, manche long.",
+    "description": "Cuillère en frêne, finition huilée. Option de gravure sur manche.",
+    "category": "ustensiles",
+    "wood": "frêne",
+    "tags": ["cuillère", "ustensile", "frêne"],
+    "image": "https://placehold.co/800x600?text=Cuill%C3%A8re+Fr%C3%AAne",
+    "featured": false,
+    "popularity": 52
+  },
+  {
+    "id": "porte-cles-chene",
+    "name": "Porte-clés en chêne - Gravure initiales",
+    "price": 9.9,
+    "shortDesc": "Petit cadeau personnalisé.",
+    "description": "Porte-clés en chêne, anneau acier. Idéal pour initiales ou petite date.",
+    "category": "accessoires",
+    "wood": "chêne",
+    "tags": ["porte-clés", "cadeau", "gravure"],
+    "image": "https://placehold.co/800x600?text=Porte-cl%C3%A9s+Ch%C3%AAne",
+    "featured": true,
+    "popularity": 70
+  }
+]
